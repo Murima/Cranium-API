@@ -1,6 +1,6 @@
 # Cranium API
 Integrated API for Strathmore's Elearning, AMS and Library data.
-=============
+
 ## AMS routes
 ### Attendance data
 ### Fee statement data
