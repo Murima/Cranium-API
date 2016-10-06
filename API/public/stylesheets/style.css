@@ -1,0 +1,155 @@
+body {
+    background-image: url("/images/bg.png");
+    /*background-color: red;*/
+}
+
+.info p {
+    font-size: 17px;
+    /*color: red;*/
+}
+
+.info {
+    border-radius: 5px !Important;
+    min-height: 300px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+    background-color: #233237;
+    color: #fff;
+    padding-right: 30px !Important;
+    padding-left: 30px !Important;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.dset {
+    padding-left: 13px;
+    color: #233237;
+}
+
+.cust-nav {
+    border-radius: 0;
+}
+
+.navbar {
+    min-height: 50px;
+}
+
+.mynav {
+    padding-top: 5px;
+}
+
+.navbar-brand {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+a {
+    font-size: 17px;
+}
+
+.navbar-default {
+    background-color: #233237;
+    color: #fff !Important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.myJ {
+    background-color: #233237;
+    color: #fff;
+}
+
+.typed-cursor {
+    font-size: 20px;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.element {
+    /*display:block;*/
+    font-size: 20px;
+}
+
+.star {
+    display: block;
+    margin: 0px auto;
+    margin-top: 30px;
+    border-radius: 3px;
+    height: 65px;
+    width: 240px;
+}
+
+.contr {
+    min-height: 200px;
+}
+
+.noDisp {
+    display: none;
+}
+
+.custBut {
+	color: #fff;
+	background-color: #233237;
+	border-color: #233237;
+  border-radius: 2px;
+
+}
+
+.custBut:hover, .custBut:active, .custBut:focus  {
+	color: #fff;
+	background-color: #233237;
+	border-color: #233237;
+}
+
+
+.progress.active .progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}

@@ -1,0 +1,32 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bower_components/bootstrap/dist/css/bootstrap.min.css')
+    link(rel='stylesheet', href="/stylesheets/style.css")
+    link(rel='stylesheet', href='/stylesheets/bower_components/font-awesome/css/font-awesome.min.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap-select.min.css')
+  body
+    nav.navbar.navbar-default.cust-nav
+      div.container
+        ul.nav.navbar-nav.mynav
+            li.nav-item
+              a.nav-link(href='/')
+                | Home 
+                span.sr-only (current)
+            |     
+            li.nav-item
+              a.nav-link(href='/api') API
+            |  
+            //- li.nav-item
+            //-   a.nav-link(href='/document') Documentation
+            //- |     
+            li.nav-item
+              a.nav-link(href='/contribute') Contribute
+
+    block content
+    script(src="/stylesheets/bower_components/jquery/dist/jquery.min.js")
+    script(src="/javascripts/typed.min.js")
+    script(src="/javascripts/app.js")
+    script(src='/stylesheets/bower_components/bootstrap/dist/js/bootstrap.min.js')
+    script(src="/javascripts/bootstrap-select.min.js")

@@ -1,0 +1,45 @@
+extends layout
+
+block content
+  div.container
+    div.row
+      h1.dset Request Parameters
+      form.form-inline(style="margin-left:15px;margin-bottom: 15px;margin-top: 15px;")
+        .form-group
+          label(for='studentNumber', style="margin-right: 10px;") Admission Number
+          input#studentNumber.form-control(type='text', placeholder='Admission Number')
+        .form-group
+          label(for='password', style="margin-right: 10px;margin-left:10px;") Password
+          input#password.form-control(type='password', placeholder='Password')
+        label(style='margin-left: 10px; margin-right: 10px;') API Route
+        select.selectpicker(multiple='')
+          optgroup(label='AMS')
+            option Coursework Marks
+            option Progress Report
+            option Attendance
+            option Fee Structure
+            option Fee Statement
+            option Agregation
+          optgroup(label='Elearning')
+          optgroup(label='Library')
+
+        button.btn.btn-primary.custBut(type="button", style="margin-left: 10px;") Send Request
+      div.col-md-12
+        div.instructions
+          h1 Instructions
+          .instruct(style='font-size: 18px !Important;margin-top:10px;')
+            p How to get data ? 
+            p Enter a student number and password, then choose an api route and hit the send request button.
+            p The results will be displayed as JSON
+    .row
+      .col-md-3
+        h1 Data Set
+      .col-md-2.prog(style='padding-right: 0; padding-left: 70px;padding-top: 20px;display: none;')
+        h4(style='width: 140px;margin-right:0;') Processing ...
+      .col-md-4.progress-container.prog(style='padding-top: 10px;padding-left:0;padding-top: 30px;display: none;')
+        .progress.progress-striped.active
+          .progress-bar.progress-bar-success(style='width:100%;')
+
+
+    div.row
+      pre.noDisp#dataSet
