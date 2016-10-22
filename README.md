@@ -11,6 +11,8 @@ Integrated API for Strathmore's Elearning, AMS and Library data.
 ## Elearning routes
 ### Search courses
 ### Course data
+### Enrolled units
+### Notifications
 =============
 ### Library routes
 ### Attachment System data
