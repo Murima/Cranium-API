@@ -6,9 +6,13 @@ Integrated RESTFUL backend API for Strathmore University's Elearning, AMS and Li
 
 ### AMS routes
 *Attendance data
+
 *Fee statement data
+
 *Fee structure data
+
 *Coursework marks data
+
 *Progress report data
 
 ###Elearning routes
